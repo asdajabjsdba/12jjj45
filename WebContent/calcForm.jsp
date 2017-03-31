@@ -13,7 +13,7 @@
 		return ((String) str).trim();
 	}%>
 <%
-	result = nvl(request.getAttribute("result"));
+	result = nvl(request.getAttribute("result123123123123"));
 	number1 = nvl(request.getParameter("num1"));
 	number2 = nvl(request.getParameter("num2"));
 	operator = nvl(request.getParameter("operator"));
